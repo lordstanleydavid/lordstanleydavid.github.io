@@ -1,5 +1,8 @@
-body {background-color: black;
+body {background-color: #232B2B;
 }
 
-h1, p {color: gold;
+h1, p {color: #E3AE57;
+}
+
+li, a, h2 {color: #DC3D24;
 }
