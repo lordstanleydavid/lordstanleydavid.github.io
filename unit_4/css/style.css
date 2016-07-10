@@ -75,10 +75,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-webkit-transition: all ease;
-	-0-transition: all ease;
 	-moz-transition: all ease;
-	transition: all ease;
-
 }
 
  .search {
@@ -186,9 +183,7 @@ a:hover {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-webkit-transition: all ease;
-	-0-transition: all ease;
 	-moz-transition: all ease;
-	transition: all ease;
 }
 
 .header2 { 
