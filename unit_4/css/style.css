@@ -240,7 +240,6 @@ a:hover {
 	top: -10%;
 	font-family: 'Comfortaa', cursive;
 	font-size: 55px;
-	font-style: bold;
 	color: #ECB59B;
 	text-align: center;
 	text-transform: lowercase;
@@ -283,7 +282,6 @@ a:hover {
 	margin: 20px;
 	font-family: 'Comfortaa', cursive;
 	font-size: 55px;
-	font-style: bold;
 	color: #ffffff;
 	text-align: left;
 	text-transform: lowercase;
@@ -334,4 +332,5 @@ footer {
 	font-size: 16px;
 	color: #ffffff;
 	text-align: center;
+}
 
