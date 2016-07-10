@@ -2,27 +2,28 @@
 @import url(https://fonts.googleapis.com/css?family=Lora);
 
 body {
-	margin: 0;
+	margin: 0 auto;
+	overflow-x: hidden;
 }
 
 header {
-	position: absolute;
+	display: inline;
+	position: relative;
 	width: 100%;
 }
 
 nav {
+
 	position: relative;
 	background: #0099FF;
-	top: -40px;
-	height: 175px;
-	vertical-align: bottom;
+	height: 120px;
 }
 
 ul {
 	list-style: none;
 	position: relative;
 	float: right;
-	top: -130px;
+	top: -350px;
 }
 
 li {
@@ -43,13 +44,12 @@ a:hover {
 
 .logo {
 	position: relative;
-	top: 40px;
 }
 
 .header { 
 	position: relative;
-	top: -80%;
 	margin: 0 auto;
+	top: -175px;
 	font-family: 'Comfortaa', cursive;
 	font-size: 40px;
 	color: #ECB59B;
@@ -60,7 +60,7 @@ a:hover {
 
 .subheader {
 	position: relative;
-	top: -100%;
+	top: -225px;
  	margin: 0 auto;
 	font-family: 'Lora', serif;
 	font-size: 20px;
@@ -69,18 +69,16 @@ a:hover {
 }
 
 .container {
+	position: relative;
 	height: 125vh;
+	width: 100%;
 	background: url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13502848_10104678495100168_3197553809835662104_o.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	-webkit-transition: all ease;
-	-moz-transition: all ease;
 }
 
  .search {
 	position: relative;
-	top: 150px;
+	top: 50px;
 	left: 25%;
 	
 }
@@ -120,7 +118,8 @@ a:hover {
 	height: 325px;
 	position: relative;
 	top: 25%;
-	margin-left: 70%;
+	margin: 0 auto;
+	left: 35%;
     background: rgba(0,0,0,0.4);
     padding: 1em;
     border-style: double;
@@ -177,13 +176,12 @@ a:hover {
 }
 
 .container2 {
+	position: relative;
 	height: 140vh;
 	background: url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13246368_10209891070579974_1008625099745219877_o.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	-webkit-transition: all ease;
-	-moz-transition: all ease;
 }
 
 .header2 { 
@@ -268,7 +266,7 @@ a:hover {
 
 .verticalblk {
 	position: absolute;
-	height: 766px;
+	height: 770px;
 	width: 350px;
 	background: #0099ff;
 	color: #ffffff;
@@ -311,7 +309,7 @@ a:hover {
 .dogimgs {
 	display: inline;
 	overflow: hidden;
- 	width: 459px;
+ 	width: 36%;
  }
 
 footer {
