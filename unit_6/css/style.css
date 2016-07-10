@@ -173,7 +173,7 @@ a:hover {
 .container2 {
 	position: relative;
 	height: 140vh;
-	background: url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13246368_10209891070579974_1008625099745219877_o.jpg");
+	background: linear-gradient( rgba(239, 176, 176, 0.85), rgba(239, 176, 176, 0.85) ), url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13246368_10209891070579974_1008625099745219877_o.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -182,7 +182,6 @@ a:hover {
 
 .header2 { 
 	position: relative;
-	top: 1%;
 	margin: 0 auto;
 	left: 0;
 	right: 0;
