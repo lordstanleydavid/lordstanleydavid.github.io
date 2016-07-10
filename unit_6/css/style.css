@@ -53,6 +53,7 @@ a:hover {
 }
 
 .subheader {
+	display: block;
 	position: relative;
 	top: -225px;
  	margin: 0 auto;
@@ -109,14 +110,15 @@ a:hover {
 
 
 .heroblock {
+	display: inline-block;
 	width: 250px;
-	height: 325px;
+	height: 350px;
 	position: relative;
-	top: 25%;
-	margin: 0 auto;
-	left: 35%;
-    background: rgba(0,0,0,0.4);
-    padding: 1em;
+	margin: 0px auto;
+	float: right;
+	left: 10%;
+	padding: 1em;
+    background: rgba(0,0,0,0.6);
     border-style: double;
     border-color: #ffffff;
     border-width: 10px;
@@ -133,6 +135,7 @@ a:hover {
 	color: #ECB59B;
 	text-align: center;
 	text-transform: lowercase;
+	padding-top: .5em;
 
 }
 
@@ -172,8 +175,7 @@ a:hover {
 
 .container2 {
 	position: relative;
-	height: 140vh;
-	background: linear-gradient( rgba(239, 176, 176, 0.85), rgba(239, 176, 176, 0.85) ), url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13246368_10209891070579974_1008625099745219877_o.jpg");
+	background: linear-gradient( rgba(0, 0, 0, 0.48), hsla(0, 0%, 0%, 0.3) ), url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13246368_10209891070579974_1008625099745219877_o.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -194,7 +196,7 @@ a:hover {
 
 .subheader2 {
 	position: relative;
- 	top: -5%;
+ 	top: -40px;
  	margin: 0 auto;
  	left: 0;
  	right: 0;
@@ -241,8 +243,7 @@ a:hover {
  .cta2 {
  	display: block;
  	position: relative;
-   	top: 50px;
-  	margin: 0 auto;
+  	margin: 40px auto;
   	left: 0;
   	right: 0;
 	background-color: #0099FF;
@@ -259,10 +260,19 @@ a:hover {
     background-color: #146EBF;
 }
 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
 aside {
 	position: relative;
-	height: 770px;
-	width: 350px;
+	height: 741px;
+	width: 30%;
 	float:left;
 	background: #0099ff;
 	color: #ffffff;
@@ -290,11 +300,16 @@ aside {
 	top: 80px;
 }
 
+#socialimgs {
+	float: right;
+	width: 70%;
+}
+
 
 .dogimgs {
 	display: inline;
 	overflow: hidden;
- 	width: 36%;
+ 	width: 49.75%;
  	cursor: pointer;
  }
 
