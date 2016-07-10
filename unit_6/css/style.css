@@ -9,7 +9,7 @@ body {
 header {
 
 	position: relative;
-	background: #0099FF;
+	background: rgba(71, 144, 191, 0.89);
 	height: 150px;
 }
 
@@ -67,7 +67,7 @@ a:hover {
 	position: relative;
 	height: 125vh;
 	width: 100%;
-	background: url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13502848_10104678495100168_3197553809835662104_o.jpg");
+	background: url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13603389_10104740919256658_3277361570165072692_o.jpg");
 	background-size: cover;
 	padding: 20px;
 }
@@ -321,7 +321,7 @@ footer {
  	position: relative;
  	width: 100%;
  	opacity: 0.6;
- 	background: #ECB59B;
+ 	background: rgba(71, 144, 191, 0.89);
  	height: 150px;
  }
 
