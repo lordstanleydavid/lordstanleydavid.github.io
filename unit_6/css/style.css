@@ -66,7 +66,6 @@ a:hover {
 .container {
 	position: relative;
 	height: 125vh;
-	width: 100%;
 	background: url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13603389_10104740919256658_3277361570165072692_o.jpg");
 	background-size: cover;
 	padding: 20px;
@@ -111,12 +110,12 @@ a:hover {
 
 .heroblock {
 	display: inline-block;
-	width: 250px;
-	height: 350px;
+	width: 400px;
+	height: 200px;
 	position: relative;
 	margin: 0px auto;
 	float: right;
-	left: 10%;
+	left: 15%;
 	padding: 1em;
     background: rgba(0,0,0,0.6);
     border-style: double;
@@ -128,33 +127,32 @@ a:hover {
 
 .header1 { 
 	position: relative;
-	top: -15%;
 	margin: 0 auto;
+	top: -30%;
 	font-family: 'Comfortaa', cursive;
 	font-size: 40px;
 	color: #ECB59B;
 	text-align: center;
 	text-transform: lowercase;
-	padding-top: .5em;
 
 }
 
 
 .copy {
 	position: relative;
-	top: -75px;
+	top: -100px;
 	font-family: 'Lora', serif;
 	font-size: 20px;
 	line-height: 1.5em;
 	color: #ffffff;
-	text-align: center;
+	text-align: left;
 	margin: 10px;
 }
 
 .cta {
 	display: block;
 	position: relative;
-   	top: -50px;
+   	top: -100px;
   	margin: 0 auto;
   	left: 0;
   	right: 0;
@@ -238,6 +236,39 @@ a:hover {
 	color: #ECB59B;
 	text-align: center;
 	text-transform: lowercase;
+}
+
+.copy1 {
+	position: relative;
+	top: -75px;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #ffffff;
+	text-align: center;
+	margin: 10px;
+}
+
+.cta1 {
+	display: block;
+	position: relative;
+   	top: -50px;
+  	margin: 0 auto;
+  	left: 0;
+  	right: 0;
+	background-color: #0099FF;
+    width: 150px;
+    color: white;
+    padding: 8px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.cta1:hover, .cta1:focus {
+    background-color: #146EBF;
 }
 
  .cta2 {
