@@ -1200,7 +1200,7 @@ header {
 	margin-left: 30%;
 	margin-right: 30%;
 	font-family: 'Comfortaa', cursive;
-	font-size: 1.5em;
+	font-size: 2em;
 	color: #ECB59B;
 	text-align: center;
 	text-transform: lowercase;
@@ -1214,7 +1214,7 @@ header {
 	top: -40px;
 	font-family: 'Lora', serif;
 	font-size: .85em;
-	line-height: 1.5em;
+	line-height: 2em;
 	padding-top: 10px;
 	color: rgba(71, 144, 191, 0.89);
 	text-align: center;
