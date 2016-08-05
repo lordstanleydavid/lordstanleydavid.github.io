@@ -1,0 +1,1028 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:700);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body {
+	margin: 0 auto;
+	overflow-x: hidden;
+	background: rgba(71, 144, 191, 0.3);
+	font-size: 18px;
+}
+
+header {
+
+	position: relative;
+	background: rgba(71, 144, 191, 0.89);
+	height: 125px;
+}
+
+ul {
+	list-style: none;
+	position: relative;
+	float: right;
+	top: -300px;
+	font-size: 1em;
+	padding-right: 1em;
+}
+
+li {
+	display: inline;
+}
+
+a {
+	color: #ffffff;
+	font-family: 'Lora', serif;
+	text-decoration: none;
+	padding-right: 1em;
+	cursor: pointer;
+}
+
+a:hover {
+    color: #ECB59B;
+}
+
+.hamburger {
+	display: none;
+}
+
+.mobhamburger {
+	display: none;
+}
+
+.logo {
+	position: relative;
+}
+
+.mobilelogo {
+	display: none;
+}
+
+.header { 
+	position: relative;
+	margin: 0 auto;
+	top: -175px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 40px;
+	color: #ECB59B;
+	text-align: center;
+	text-transform: lowercase;
+
+}
+
+.subheader {
+	display: block;
+	position: relative;
+	top: -225px;
+ 	margin: 0 auto;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	height: 125vh;
+	background: url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13667786_10104799621950988_6271953250903128978_o.jpg");
+	background-size: cover;
+	padding: 20px;
+}
+
+.tabcontainer {
+	display: none;
+}
+
+ .search {
+	position: relative;
+	margin: 0 auto;
+	top: 5px;
+	margin-left: 8%;
+	margin-right: 3%;
+	padding-bottom: 10px;
+}
+
+.dropbtn {
+    width: 20%;
+	background: rgba(0,0,0,0.2);
+	border-style: double;
+    border-color: #ffffff;
+    color: white;
+    padding: 8px 0px 8px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.searchbtn {
+    background-color: #0099FF;
+    width: 15%;
+    margin: 0 auto;
+    color: white;
+    padding: 10px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.searchbtn:hover, .searchbtn:focus {
+    background-color: #146EBF;
+}
+
+
+
+.heroblock {
+	display: inline-block;
+	width: 40%;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+	margin-right: 25%;
+	margin-left: 27%;
+	top: 50px;
+	padding: 1em;
+    background: rgba(0,0,0,0.6);
+    border-style: double;
+    border-color: #ffffff;
+    border-width: 10px;
+    border-radius: 10px;
+
+}
+
+.header1 { 
+	position: relative;
+	margin: 0 auto;
+	top: -30%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 40px;
+	color: #ECB59B;
+	text-align: center;
+	text-transform: lowercase;
+
+}
+
+
+.copy {
+	position: relative;
+	top: -100px;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #ffffff;
+	text-align: left;
+	margin: 10px;
+}
+
+.cta {
+	display: block;
+	position: relative;
+   	top: -100px;
+  	margin: 0 auto;
+  	left: 0;
+  	right: 0;
+	background-color: #0099FF;
+    width: 30%;
+    color: white;
+    padding: 8px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.cta:hover, .cta:focus {
+    background-color: #146EBF;
+}
+
+.container2 {
+	position: relative;
+	background: linear-gradient( rgba(0, 0, 0, 0.48), hsla(0, 0%, 0%, 0.3) ), url("https://scontent-lga3-1.xx.fbcdn.net/t31.0-8/13246368_10209891070579974_1008625099745219877_o.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	padding: 20px;
+}
+
+.header2 { 
+	position: relative;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	font-family: 'Comfortaa', cursive;
+	font-size: 40px;
+	color: #ECB59B;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.subheader2 {
+	position: relative;
+ 	top: -40px;
+ 	margin: 0 auto;
+ 	left: 0;
+ 	right: 0;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.heroblock1 {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: 450px;
+	position: relative;
+	margin: 0 auto;
+	left: 8%;
+	margin-right: 5%;
+	padding: 1em;
+    background: rgba(0,0,0,0.6);
+    border-style: double;
+    border-color: #ffffff;
+    border-width: 10px;
+    border-radius: 10px;
+
+}
+
+.circleimg {
+	position: relative;
+	top: 10px;
+	margin-left: 23%
+}
+
+
+.header3 {
+	position: relative;
+	top: -10%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 55px;
+	color: #ECB59B;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.copy1 {
+	position: relative;
+	top: -75px;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	line-height: 1.5em;
+	color: #ffffff;
+	text-align: center;
+	margin: 10px;
+}
+
+.cta1 {
+	display: block;
+	position: relative;
+   	top: -50px;
+  	margin: 0 auto;
+  	left: 0;
+  	right: 0;
+	background-color: #0099FF;
+    width: 75%;
+    color: white;
+    padding: 8px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.cta1:hover, .cta1:focus {
+    background-color: #146EBF;
+}
+
+ .cta2 {
+ 	display: block;
+ 	position: relative;
+  	margin: 40px auto;
+  	left: 0;
+  	right: 0;
+	background-color: #0099FF;
+    width: 20%;
+    color: white;
+    padding: 8px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.cta2:hover, .cta2:focus {
+    background-color: #146EBF;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.tabcontainer2 {
+	display: none;
+}
+
+aside {
+	position: relative;
+	height: 741px;
+	width: 30%;
+	float:left;
+	background: #0099ff;
+	color: #ffffff;
+	text-align: left;
+
+}
+
+.header4 {
+	position: relative;
+	top: 5%;
+	margin: 20px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2.5em;
+	color: #ffffff;
+	text-align: left;
+	text-transform: lowercase;
+}
+
+#share { 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	left: 20px;
+	right: 0;
+	top: 80px;
+	font-size: ..5em;
+}
+
+#socialimgs {
+	float: right;
+	width: 70%;
+}
+
+
+.dogimgs {
+	display: inline-block;
+	float: right;
+ 	width: 50%;
+ 	cursor: pointer;
+ }
+
+.dogimgs:hover, {
+	background-color: rgba(0,0,0,.3);
+}
+
+.tabsocial {
+	display: none;
+}
+
+footer {
+ 	position: relative;
+ 	width: 100%;
+ 	opacity: 0.6;
+ 	background: rgba(71, 144, 191, 0.89);
+ 	height: 150px;
+ }
+
+ .subheader5 {
+	position: relative;
+	top: -75px;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+	color: #ffffff;
+	text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	header {
+		height: 125px;
+	}
+
+	a {
+		display: none;
+	}
+
+	.mobilelogo {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+		position: relative;
+		padding-top: 60%;
+		padding-right: 1em;
+		top: -50px;
+	}
+
+	.mobhamburger {
+		display: none;
+	}
+
+	.container {
+		display: none;
+	}
+
+	.tabcontainer {
+		display: block;
+	}
+
+	.subheader {
+		display: none;
+	}
+
+	.tabsearch {
+		position: relative;
+		margin: 0 auto;
+		top: 5px;
+		margin-left: 8%;
+		margin-right: 3%;
+	}
+
+	.mobilesearch {
+		display: none;
+	}
+
+	.tabdropbtn {
+		width: 20%;
+		background: rgba(0,0,0,0.2);
+		border-style: double;
+    	border-color: #ffffff;
+    	color: white;
+    	padding: 8px 0px 8px;
+    	font-family: 'Lora', serif;
+    	font-size: 20px;
+    	cursor: pointer;
+	}
+
+	.tabheroblock0 {
+		display: block;
+		position: relative;
+		width: 100%;
+		background-color: #ffffff;
+		top: -340px;
+	}
+
+	.tabheroblock {
+		display: block;
+		position: relative;
+		width: 100%;
+		background-color: #ffffff;
+		top: -520px;
+	}
+
+	.tabheader1 {
+		position: relative;
+		margin: 0 auto;
+		top: -30%;
+		font-family: 'Comfortaa', cursive;
+		font-size: 40px;
+		color: #ECB59B;
+		text-align: center;
+		text-transform: lowercase;
+	}
+
+	.tabtext {
+		position: relative;
+		margin: 0 auto;
+		margin-left: 20%;
+		margin-right: 20%;
+		top: -40px;
+		font-family: 'Lora', serif;
+		font-size: 20px;
+		line-height: 1.5em;
+		color: rgba(71, 144, 191, 0.89);
+		text-align: center;
+	}
+
+	.tabcta {
+		display: block;
+		position: relative;
+		top: -20px;
+  		margin: 0 auto;
+  		left: 0;
+  		right: 0;
+		background-color: #0099FF;
+    	width: 30%;
+    	color: white;
+    	padding: 8px;
+    	font-family: 'Lora', serif;
+    	font-size: 20px;
+    	border: none;
+    	cursor: pointer;
+}
+
+	.tabcta:hover, .cta:focus {
+    	background-color: #146EBF;
+}
+
+	.beachimg {
+		width: 100%;
+		position: relative;
+		top: -288px;
+
+	}
+
+	.container2 {
+		display: none;
+	}
+
+	.tabcontainer2 {
+		display: block;
+	}
+
+	.tabheroblock1 {
+		display: block;
+		position: relative;
+		width: 100%;
+		background-color: #ffffff;
+		top: -136px;
+	}
+
+	.tabheroblock2 {
+		display: block;
+		position: relative;
+		width: 100%;
+		top: -201px;
+	}
+
+	.tabheroblock3 {
+		display: block;
+		position: relative;
+		width: 100%;
+		top: -266px;
+	}
+
+	.tabheroblock4 {
+		display: block;
+		position: relative;
+		width: 100%;
+		top: -440px;
+		background-color: #ffffff;
+	}
+
+	.tabherobtn {
+		display: block;
+		position: relative;
+		width: 100%;
+		top: -351px;
+		color: #ffffff;
+		font-size: 24px;
+		padding: 8px;
+		background-color: #0099FF;
+		font-family: 'Lora', serif;
+		border: none;
+		cursor: pointer;
+
+	}
+
+	.tabherobtn:hover, .tabherobtn:focus {
+    	background-color: #146EBF;
+    }
+
+	.tabheader2 {
+		position: relative;
+		margin: 0 auto;
+		margin-left: 30%;
+		margin-right: 30%;
+		font-family: 'Comfortaa', cursive;
+		font-size: 40px;
+		color: #ECB59B;
+		text-align: center;
+		text-transform: lowercase;
+	}
+
+	.tabtext1 {
+		position: relative;
+		margin: 0 auto;
+		margin-left: 20%;
+		margin-right: 20%;
+		top: -40px;
+		font-family: 'Lora', serif;
+		font-size: 20px;
+		line-height: 1.5em;
+		color: rgba(71, 144, 191, 0.89);
+		text-align: center;
+	}
+
+	.tabcta1 {
+		display: block;
+		position: relative;
+		top: -40px;
+  		margin: 0 auto;
+  		left: 0;
+  		right: 0;
+		background-color: #0099FF;
+    	width: 30%;
+    	color: white;
+    	padding: 8px;
+    	font-family: 'Lora', serif;
+    	font-size: 20px;
+    	border: none;
+    	cursor: pointer;
+}
+
+	.tabcta1:hover, .tabcta:focus {
+    	background-color: #146EBF;
+    }
+
+    .tabhostimg {
+    	width: 100%;
+    	position: relative;
+    	top: -204px;
+    }
+
+.tabcta2 {
+		display: block;
+		position: relative;
+		top: -400px;
+  		float: right;
+		background-color: rgba(0, 0, 0, 0.48);
+    	width: 30%;
+    	color: white;
+    	padding: 8px;
+    	font-family: 'Lora', serif;
+    	font-size: 2em;
+    	border: none;
+    	cursor: pointer;
+} 
+
+.clearfix {
+	display: none;
+} 
+
+.tabsocial {
+	display: block;
+}
+
+.tabsharemodule {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	text-align: center;
+	top: -475px;
+}
+
+.tabheader4 {
+	position: relative;
+	top: 5%;
+	margin: 0 auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 2em;
+	color: #ECB59B;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.tabhashtag {
+	color: #0099FF;
+}
+
+#tabshare { 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	float: left
+	right: 0;
+	cursor: pointer;
+}
+
+.tabdogimgs {
+	display: inline-block;
+	position: relative;
+	float: right;
+ 	width: 50%;
+ 	top: -475px;
+ 	cursor: pointer;
+ }
+
+ .tabclearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+ }
+
+footer {
+ 	position: relative;
+ 	top: -475px;
+ }
+
+
+}
+
+@media only screen and (max-width: 624px) {
+
+header {
+		height: 90px;
+	}
+
+
+.logo {
+	display: none;
+}
+
+.mobilelogo {
+	display: block;
+	position: relative;
+}
+
+.header { 
+	position: relative;
+	margin: 0 auto;
+	top: -120px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 24px;
+	color: #ECB59B;
+	text-align: center;
+	text-transform: lowercase;
+
+}
+
+.hamburger {
+	display: none;
+}
+
+.mobhamburger {
+	display: block;
+	position: relative;
+	padding-top: 80%;
+	padding-right: 1em;
+	top: 60px;
+}
+
+.beachimg {
+		width: 100%;
+		position: relative;
+		top: -150px;
+
+}
+
+.search {
+	display: none;
+}
+
+.tabsearch {
+	display: none;
+}
+
+.mobilesearch {
+	display: block;
+	position: relative;
+}
+
+.mobdropbtn {
+	position: relative;
+	width: 100%;
+	background: rgba(0,0,0,0.2);
+	border-style: double;
+    border-color: #ffffff;
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.mobsearchbtn {
+	display: block;
+	position: relative;
+    background-color: #0099FF;
+    width: 100%;
+    top: 27px;
+    margin: 0 auto;
+    color: white;
+    padding: 15px;
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+}
+
+.mobdropbtn1 {
+	position: relative;
+	width: 100%;
+	top: 0px;
+	background: rgba(0,0,0,0.2);
+	border-style: double;
+    border-color: #ffffff;
+    color: white;
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+
+
+.mobsearchbtn:hover, .mobsearchbtn:focus {
+    background-color: #146EBF;
+}
+
+.beachimg {
+	width: 100%;
+	position: relative;
+	top: 27px;
+
+}
+
+.tabheroblock0 {
+	display: block;
+	position: relative;
+	width: 100%;
+	background-color: #ffffff;
+	top: -25px;
+	}
+
+
+.tabheroblock {
+	display: block;
+	position: relative;
+	width: 100%;
+	background-color: #ffffff;
+	top: -225px;
+}
+
+.tabheroblock1 {
+	display: block;
+	position: relative;
+	width: 100%;
+	top: 180px;
+}
+
+.tabheroblock2 {
+	display: block;
+	position: relative;
+	width: 100%;
+	top: 125px;
+}
+
+.tabheroblock3 {
+	display: block;
+	position: relative;
+	width: 100%;
+	top: 40px;
+}
+
+
+.tabherobtn {
+	display: block;
+	position: relative;
+	width: 100%;
+	top: -351px;
+	color: #ffffff;
+	font-size: 24px;
+	padding: 8px;
+	background-color: #0099FF;
+	font-family: 'Lora', serif;
+	border: none;
+	cursor: pointer;
+
+}
+
+.tabherobtn:hover, .tabherobtn:focus {
+    background-color: #146EBF;
+}
+
+.tabheader2 {
+	position: relative;
+	margin: 0 auto;
+	margin-left: 30%;
+	margin-right: 30%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.5em;
+	color: #ECB59B;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.tabtext1 {
+	position: relative;
+	margin: 0 auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	top: -40px;
+	font-family: 'Lora', serif;
+	font-size: .85em;
+	line-height: 1.5em;
+	padding-top: 10px;
+	color: rgba(71, 144, 191, 0.89);
+	text-align: center;
+}
+
+.tabcta1 {
+	display: block;
+	position: relative;
+	top: -40px;
+  	margin: 0 auto;
+  	left: 0;
+  	right: 0;
+	background-color: #0099FF;
+    width: 30%;
+    color: white;
+    padding: 8px;
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+	.tabcta1:hover, .tabcta:focus {
+    	background-color: #146EBF;
+    }
+
+    .tabhostimg {
+    	width: 100%;
+    	position: relative;
+    	top: -204px;
+    }
+
+.tabcta2 {
+		display: block;
+		position: relative;
+		top: -300px;
+  		float: right;
+		background-color: rgba(0, 0, 0, 0.48);
+    	width: 30%;
+    	color: white;
+    	padding: 8px;
+    	font-family: 'Lora', serif;
+    	font-size: 1.5em;
+    	border: none;
+    	cursor: pointer;
+} 
+
+.tabsharemodule {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	text-align: center;
+	top: -200px;
+}
+
+.tabheader4 {
+	position: relative;
+	top: 5%;
+	margin: 0 auto;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-family: 'Comfortaa', cursive;
+	font-size: 1.5em;
+	color: #ECB59B;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.tabhashtag {
+	color: #0099FF;
+}
+
+#tabshare { 
+	display: inline-block;
+	position: relative;
+	margin: 0 auto;
+	float: left
+	right: 0;
+	cursor: pointer;
+}
+
+.tabdogimgs {
+	display: inline-block;
+	position: relative;
+	float: right;
+ 	width: 50%;
+ 	top: -200px;
+ 	cursor: pointer;
+ }
+
+ .tabclearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+ }
+
+footer {
+ 	position: relative;
+ 	top: -200px;
+ }
+
+
+}
+
