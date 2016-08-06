@@ -1070,10 +1070,11 @@ footer {
  	top: -380px;
  }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 728px) {
+@media only screen and (min-device-width: 300px) and (max-device-width: 624px) {
+
 
 header {
-		height: 90px;
+		height: 150px;
 	}
 
 
@@ -1084,12 +1085,13 @@ header {
 .mobilelogo {
 	display: block;
 	position: relative;
+	top: 25px;
 }
 
 .header { 
 	position: relative;
 	margin: 0 auto;
-	top: -120px;
+	top: -90px;
 	font-family: 'Comfortaa', cursive;
 	font-size: 24px;
 	color: #ECB59B;
@@ -1107,7 +1109,7 @@ header {
 	position: relative;
 	padding-top: 80%;
 	padding-right: 1em;
-	top: 60px;
+	top: 80px;
 }
 
 .beachimg {
@@ -1115,6 +1117,47 @@ header {
 		position: relative;
 		top: -150px;
 
+}
+
+.tabheader1 {
+		position: relative;
+		margin: 0 auto;
+		top: -30%;
+		font-family: 'Comfortaa', cursive;
+		font-size: 2.5em;
+		color: #ECB59B;
+		text-align: center;
+		text-transform: lowercase;
+	}
+
+	.tabtext {
+		position: relative;
+		margin: 0 auto;
+		margin-left: 5%;
+		margin-right: 5%;
+		top: -40px;
+		font-family: 'Lora', serif;
+		font-size: 1.8em;
+		line-height: 1.5em;
+		color: rgba(71, 144, 191, 0.89);
+		text-align: center;
+	}
+
+	.tabcta {
+		display: block;
+		position: relative;
+		top: -20px;
+  		margin: 0 auto;
+  		left: 0;
+  		right: 0;
+		background-color: #0099FF;
+    	width: 60%;
+    	color: white;
+    	padding: 8px;
+    	font-family: 'Lora', serif;
+    	font-size: 1.5em;
+    	border: none;
+    	cursor: pointer;
 }
 
 .search {
@@ -1133,13 +1176,34 @@ header {
 .mobdropbtn {
 	position: relative;
 	width: 100%;
+	top: -175px;
 	background: rgba(0,0,0,0.2);
 	border-style: double;
     border-color: #ffffff;
     color: white;
     font-family: 'Lora', serif;
-    font-size: 1.5em;
+    font-size: 3em;
     cursor: pointer;
+}
+
+.caret {
+	position: relative;
+	left: 10%;
+}
+
+.caret0 {
+	position: relative;
+	left: 14%;
+}
+
+.caret1 {
+	position: relative;
+	left: 9%;
+}
+
+.caret2 {
+	position: relative;
+	left: 11%;
 }
 
 .mobsearchbtn {
@@ -1147,30 +1211,15 @@ header {
 	position: relative;
     background-color: #0099FF;
     width: 100%;
-    top: 27px;
+    top: -175px;
     margin: 0 auto;
     color: white;
     padding: 15px;
     font-family: 'Lora', serif;
-    font-size: 1.5em;
+    font-size: 3em;
     border: none;
     cursor: pointer;
 }
-
-.mobdropbtn1 {
-	position: relative;
-	width: 100%;
-	top: 0px;
-	background: rgba(0,0,0,0.2);
-	border-style: double;
-    border-color: #ffffff;
-    color: white;
-    font-family: 'Lora', serif;
-    font-size: 1.5em;
-    cursor: pointer;
-}
-
-
 
 .mobsearchbtn:hover, .mobsearchbtn:focus {
     background-color: #146EBF;
@@ -1179,7 +1228,7 @@ header {
 .beachimg {
 	width: 100%;
 	position: relative;
-	top: 27px;
+	top: -175px;
 
 }
 
@@ -1188,7 +1237,7 @@ header {
 	position: relative;
 	width: 100%;
 	background-color: #ffffff;
-	top: -25px;
+	top: -227px;
 	}
 
 
@@ -1197,28 +1246,28 @@ header {
 	position: relative;
 	width: 100%;
 	background-color: #ffffff;
-	top: -225px;
+	top: -400px;
 }
 
 .tabheroblock1 {
 	display: block;
 	position: relative;
 	width: 100%;
-	top: 180px;
+	top: -23px;
 }
 
 .tabheroblock2 {
 	display: block;
 	position: relative;
 	width: 100%;
-	top: 125px;
+	top: -76px;
 }
 
 .tabheroblock3 {
 	display: block;
 	position: relative;
 	width: 100%;
-	top: 40px;
+	top: -160px;
 }
 
 
@@ -1244,10 +1293,10 @@ header {
 .tabheader2 {
 	position: relative;
 	margin: 0 auto;
-	margin-left: 30%;
-	margin-right: 30%;
+	margin-left: 2%;
+	margin-right: 2%;
 	font-family: 'Comfortaa', cursive;
-	font-size: 2em;
+	font-size: 2.5em;
 	color: #ECB59B;
 	text-align: center;
 	text-transform: lowercase;
@@ -1256,13 +1305,12 @@ header {
 .tabtext1 {
 	position: relative;
 	margin: 0 auto;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
 	top: -40px;
 	font-family: 'Lora', serif;
-	font-size: .85em;
-	line-height: 2em;
-	padding-top: 10px;
+	font-size: 1.8em;
+	line-height: 1em;
 	color: rgba(71, 144, 191, 0.89);
 	text-align: center;
 }
@@ -1275,11 +1323,11 @@ header {
   	left: 0;
   	right: 0;
 	background-color: #0099FF;
-    width: 30%;
+    width: 60%;
     color: white;
     padding: 8px;
     font-family: 'Lora', serif;
-    font-size: 20px;
+    font-size: 1.5em;
     border: none;
     cursor: pointer;
 }
@@ -1315,17 +1363,17 @@ header {
 	height: 100%;
 	background: #ffffff;
 	text-align: center;
-	top: -200px;
+	top: -380px;
 }
 
 .tabheader4 {
 	position: relative;
 	top: 5%;
 	margin: 0 auto;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-left: 5%;
+	margin-right: 5%;
 	font-family: 'Comfortaa', cursive;
-	font-size: 1.5em;
+	font-size: 2.5em;
 	color: #ECB59B;
 	text-align: center;
 	text-transform: lowercase;
@@ -1349,7 +1397,7 @@ header {
 	position: relative;
 	float: right;
  	width: 50%;
- 	top: -200px;
+ 	top: -380px;
  	cursor: pointer;
  }
 
@@ -1364,7 +1412,7 @@ header {
 
 footer {
  	position: relative;
- 	top: -200px;
+ 	top: -380px;
  }
 
 }
