@@ -1070,7 +1070,7 @@ footer {
  	top: -380px;
  }
 
-@media only screen and (min-device-width: 300px) and (max-device-width: 624px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
 
 
 header {
