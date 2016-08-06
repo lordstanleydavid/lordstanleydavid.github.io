@@ -404,6 +404,7 @@ footer {
 }
 
 @media only screen 
+and (min-width: 625px)
 and (max-width : 1024px) {
 
 	header {
@@ -727,7 +728,8 @@ footer {
 }
 
 @media only screen 
-and (max-width : 480px) {
+and (min-width : 375px)
+and (max-width : 624px) {
 
 header {
 		height: 150px;
@@ -1070,5 +1072,6 @@ footer {
  	position: relative;
  	top: -380px;
  }
+
 }
 
